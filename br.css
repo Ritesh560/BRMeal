@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#home{
+    background-color: rgb(54, 45, 45);
+    border-radius: 4px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav{
+    margin: 0%;
+    list-style-type: none;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-size: 100%;
+}
+
+nav li a:hover{
+    color: rgb(42, 8, 231);
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid rgb(83, 81, 81);
+    border-radius: 3px;
+    margin: 3px;
+    margin-right: 20px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+li img{
+    position:relative;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: grid;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+}
+
+.insta{
+    position: absolute;
+    right: 10px;
+}
+.fb{
+    position: absolute;
+    right: 50px;
+}
+.twitter{
+    position: absolute;
+    right: 90px;
+}
+
+.intro{
+    
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 20% auto auto 10%;
+    top: 50%;
+    font-size: 200%;
+}
+.intro h2{font-family: damion;}
+.intro h1{
+    font-family: yellowtail;
+    transform: rotate(-20deg);
+    text-transform: uppercase;
+
+    /* -webkit-transform: rotate(30deg);
+-moz-transform: rotate(30deg);
+-o-transform: rotate(30deg);
+writing-mode: lr-tb; */
+}
+
+.orderbtn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font: bold;
+    border-radius: 6px;
+}
+.orderbtn:hover{
+    opacity: 70%;
+    background-color: rgb(46, 204, 7);
+}
