@@ -27,6 +27,7 @@ nav li a{
     color: white;
     font-size: 0.7rem;
     font-size: 100%;
+    text-shadow: 1px 1px brown;
 }
 
 nav li a:hover{
@@ -51,8 +52,8 @@ li img{
     flex-direction: row-reverse; */
     display: grid;
     right: 0px;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 60%;
 }
 
@@ -78,7 +79,7 @@ li img{
     top: 50%;
     font-size: 200%;
 }
-.intro h2{font-family: damion;}
+.intro h2,h3{font-family: damion;}
 .intro h1{
     font-family: yellowtail;
     transform: rotate(-20deg);
@@ -90,14 +91,46 @@ li img{
 writing-mode: lr-tb; */
 }
 
-.orderbtn{
-    background-color: blue;
+a.btn{
+    text-decoration: none;
     color: white;
-    padding: 10px;
-    font: bold;
+    font-size: 1.3rem;
+    margin-right: 10%;
+    padding: 2px 5px;
+    border: 1px solid white;
     border-radius: 6px;
 }
-.orderbtn:hover{
-    opacity: 70%;
-    background-color: rgb(46, 204, 7);
+a.btn:hover{
+    background-color: rgb(107, 47, 47);
+}
+footer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: black;
+    text-shadow: 1px 1px brown;
+    margin-top: 5%;
+}
+.hello{ position: relative;
+    text-align: center;
+    animation-name: bmp;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bmp{
+    0%{
+        left: 0%;
+    }
+    25%{
+        left:10%;
+    }
+    50%{
+        left: 0%;
+    }
+    75%{
+        left:-10%;
+    }
+    100%{
+        left: 0%;
+    }
 }
