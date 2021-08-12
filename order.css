@@ -1,0 +1,274 @@
+/*left center and right part media querry*/
+@media screen and (min-width: 800px) {
+
+menu{
+    display: inline-block;
+    width: 20%;
+    margin-right: 20px;
+}
+select{
+    margin-left: 30px;
+}
+main{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+}
+aside{
+    display: inline-block;
+    width: 20%;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 40px;
+    }
+
+    main div h4{
+        position: relative;
+        bottom: 55px;
+        left: 5%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    
+menu{
+    display: inline-block;
+    width: 20%;
+    margin-right: 20px;
+}
+select{
+    margin-left: 30px;
+}
+main{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+}
+aside{
+    width: 20%;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    menu{margin: 10% 0% 10% 0%;
+        padding: 5%;
+    border: 2px solid black;
+    text-align: center;
+    }
+    main{
+        margin: 1%;
+        padding: 5%;
+        border: 2px solid black;
+    }
+    aside{
+        margin: 10% 0% 10% 0%;
+        padding: 5%;
+        border: 2px solid black;
+        align-content: center;
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+        align-content: center;
+        left: 0%;
+    }
+    .hi{
+        text-align: center;
+        align-content: center;
+        display: block;
+        right: 200%;
+        left: 200%;
+        font-size: 200%;
+        margin: 0% 45%;
+        
+    }
+
+    main div h4{
+        position: relative;
+        bottom: 55px;
+        left: 5%;
+    }
+}
+
+/*end of media querry*/
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+h5{
+    text-align: center;
+    text-shadow: 1px 1px white;
+    font-size: 1.2rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px white;
+}
+h3,h4{
+    text-shadow: 1px 1px white;
+}
+main div h4, main div h6{
+    display: inline-block;
+    
+}
+
+img{ display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    margin-left:50px ;
+}
+input,textarea{
+    border-radius: 3px;
+}
+button{
+    text-align: center;
+    padding: 2px 30px 2px 30px;
+    position: relative;
+    left: 115px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (min-width: 1075px) and (max-width: 1350px) {
+   button{left: 5%;} 
+}
+
+aside button{
+    text-align: center;
+    padding: 2px 30px 2px 30px;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: purple;
+    color: white;
+
+}
+textarea{
+    border: 2px solid purple;
+    border-radius: 8px;
+}
+body{
+    background-image: radial-gradient(rgb(189, 110, 189),white);
+}
+hr{
+    border-bottom: 2px solid purple;
+    
+}
+button:hover{
+    background-color: rgb(143, 63, 143);
+}
+input[type=text]{
+    background-color: rgb(240, 229, 229);
+}
+textarea[name=suggestion]{
+    background-color: rgb(240, 229, 229);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.hello{ position: relative;
+    text-align: center;
+    animation-name: bmp;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bmp{
+    0%{
+        left: 0px;
+    }
+    25%{
+        left:100px;
+    }
+    50%{
+        left: 0px;
+    }
+    75%{
+        left:-100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+
+#home{
+    background-color: rgb(201, 151, 201);
+    border-radius: 4px;
+    margin: 0%;
+    padding: 0%;
+    z-index: 9999;
+}
+
+nav{
+    margin: 0%;
+    list-style-type: none;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-size: 100%;
+}
+
+nav li a:hover{
+    color: rgb(42, 8, 231);
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    /* border: 1px solid rgb(83, 81, 81); */
+    border-radius: 3px;
+    margin: 3px;
+    margin-right: 20px;
+    padding: 2px;
+    
+}
+.order1{
+    color: rgb(42, 8, 231);
+}
+.about1{margin-right: 100px;}
+
+li img{
+    position:relative;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: grid;
+    right: 0px;
+    height: 25px;
+    width: 25px;
+}
+
+.insta{
+    position: absolute;
+    right: 10px;
+}
+.fb{
+    position: absolute;
+    right: 40px;
+}
+.twitter{
+    position: absolute;
+    right: 70px;
+    overflow: hidden;
+}
