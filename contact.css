@@ -1,47 +1,45 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: yellow;
+    background-color: rgb(95, 23, 23);
 }
 #container{
     /* trash */
-    background-color: yellow;
+    background-color: rgb(95, 23, 23);
     margin: 0px;
 }
 #booking h1{
     text-align: center;
     color:white;
-    background-color: red;
+    text-shadow: 1px 1px black;
+    
 }
 #booking{
-    height: 700px;
-    width: 90%;
+    
     background-position: center;
     background-image: url(booking.jpg);
     background-color: white;
-    border: 2px solid black;
-    margin: 0% 5%;
+    border: 1px solid brown;
     
     
 }
 .bookingform{
     margin: 2% 5%;
-    color: grey;
+    color: rgb(23, 68, 214);
     font-weight: bold;
     font-size: 140%;
+    text-shadow: 1px 1px black;
     border: 2px solid white;
+    border-radius: 8px;
+    height: 150px;
+    text-shadow: 1px 1px white;
+    width: 280px;
+    margin: 10% 0px 30% 10%;
+    padding: 10px 20px;
     
 }
 
-.bookbtn{
-    color: white;
-    background-color: blue;
-    padding: 3px;
-    margin: 5px 10px;
-    text-align: center;
-    align-content: center;
-}
-.bookbtn:hover{
+.btn:hover{
     background-color: rgb(214, 91, 20);
 }
 
@@ -51,7 +49,7 @@ body{
 .contact h1{
     color: rgb(192, 120, 12);
 }
-
+/* 
 .left{
     display: inline-block;
     color: white;
@@ -104,4 +102,157 @@ body{
 .email b{
     color: rgb(50, 205, 89);
     font-size: 150%;
+} */
+.left{ display: inline-block;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 7% ;
+    text-shadow: 1px 1px brown;
+
+}
+.socialmedia{ display: inline-block;
+    width: 30opx;
+    border: 2px solid white;
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    margin: 7% ;
+    text-shadow: 1px 1px brown;
+
+}
+.right, .location{
+    display: inline-block;
+    width: 300px;
+    border-radius: 8px;
+    color: black;
+    text-shadow: 1px 1px brown;
+    text-align: center;
+    background-color: white;
+    margin: 7%;
+}
+
+.location img{
+    height: 180px;
+    width: 100%;
+    border-radius: 8px;
+
+}
+.socialmedia img{
+    height: 60px;
+    width: 60px;
+}
+.socialmedia img:hover{
+    opacity: 60%;
+}
+.contact H1{
+    
+    text-align: center;
+    
+}
+.hello{ position: relative;
+    text-align: center;
+    animation-name: bmp;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bmp{
+    0%{
+        left: 0%;
+    }
+    25%{
+        left:10%;
+    }
+    50%{
+        left: 0%;
+    }
+    75%{
+        left:-10%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+hr{
+    
+    border-bottom: 2px solid white;
+}
+.btn{
+    padding: 2px 80px 2px 80px;
+    border: 2px solid brown;
+    margin: 5px;
+    border-radius: 8px;
+    text-shadow: 1px 1px brown;
+}
+#home{
+    background-color: rgb(53, 47, 47);
+    border-radius: 4px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav{
+    margin: 0%;
+    list-style-type: none;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-size: 100%;
+}
+
+nav li a:hover{
+    color: rgb(42, 8, 231);
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    /* border: 1px solid rgb(83, 81, 81); */
+    border-radius: 3px;
+    margin: 3px;
+    margin-right: 20px;
+    padding: 2px;
+    
+}
+
+li img{
+    position:relative;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: grid;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 60%;
+}
+
+.insta{
+    position: absolute;
+    right: 10px;
+}
+.fb{
+    position: absolute;
+    right: 40px;
+}
+.twitter{
+    position: absolute;
+    right: 70px;
+}
+footer{
+    text-align: center;
+    color: white;
+    border-top: 6px solid white ;
+    border-bottom: 6px solid white;
 }
