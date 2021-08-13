@@ -121,6 +121,8 @@ body{
     background-color: white;
     text-align: center;
     margin: 7% ;
+    padding-left: 25px;
+    padding-right: 25px;
     text-shadow: 1px 1px brown;
 
 }
@@ -225,6 +227,10 @@ nav li{
     margin-right: 20px;
     padding: 2px;
     
+}
+
+.contact1{
+    color: rgb(42, 8, 231);
 }
 
 li img{
