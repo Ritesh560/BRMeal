@@ -52,7 +52,7 @@ aside{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 435px) {
     menu{margin: 10% 0% 10% 0%;
         padding: 5%;
     border: 2px solid black;
@@ -90,6 +90,47 @@ aside{
         position: relative;
         bottom: 55px;
         left: 5%;
+    }
+}
+
+@media screen and (max-width:435) {
+     menu{margin: 10% 0% 10% 0%;
+        padding: 5%;
+    border: 2px solid black;
+    text-align: center;
+    }
+    main{
+        margin: 1%;
+        padding: 5%;
+        border: 2px solid black;
+    }
+    aside{
+        margin: 10% 0% 10% 0%;
+        padding: 5%;
+        border: 2px solid black;
+        align-content: center;
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+        align-content: center;
+        left: 0%;
+    }
+    .hi{
+        text-align: center;
+        align-content: center;
+        display: block;
+        right: 45%;
+        left: 45%;
+        font-size: 200%;
+        margin: 0% 45%;
+        
+    }
+
+    main div h4{
+        position: relative;
+        bottom: 55px;
+        margin: 50px;
     }
 }
 
