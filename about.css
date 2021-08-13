@@ -3,6 +3,7 @@
     padding: 0px;
 } */
 
+
 @media screen and (min-width:600px) {
 .address{
     display: inline-block;
@@ -96,8 +97,8 @@ li img{
     flex-direction: row-reverse; */
     display: grid;
     right: 0px;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     border-radius: 60%;
 }
 
@@ -109,11 +110,11 @@ li img{
 }
 .fb{
     position: absolute;
-    right: 50px;
+    right: 40px;
 }
 .twitter{
     position: absolute;
-    right: 90px;
+    right: 70px;
 }
 
 body{
